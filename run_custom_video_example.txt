@@ -1,0 +1,3 @@
+conda activate IPHO_test_vistracker_v3
+
+bash scripts/run_custom_video_demo.sh ../../data/demo_data/intermediate_process/Date03_Sub01_box_lift.0
