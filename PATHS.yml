@@ -1,0 +1,17 @@
+# Set all the paths here.
+# This relative-path variant assumes you run commands from the repo root.
+
+CODE: "." # project root
+BEHAVE_ROOT: "./behave_release" # contains ./behave_release/objects
+BEHAVE_PATH: "./demo_data" # demo sequence root
+EXTENDED_BEHAVE_PATH: "./demo_data" # 30fps BEHAVE-style sequence root
+GT_PACKED: "./demo_data/behave-packed" # packed GT data for demo/eval
+PROCESSED_PATH: "./processed_data" # placeholder for training preprocess output
+
+# paths for output reconstruction and visualization
+RECON_PATH: "./recon-all"
+VIZ_PATH: "./recon-all/result-render"
+
+# paths to SMPL libs
+SMPL_ASSETS_ROOT: "assets"
+SMPL_MODEL_ROOT: "./smplh_models"
